@@ -42,8 +42,9 @@ setInterval(() => {
 
 /*
 // inquirer package => terminal bn bogliq activitylar ucun iwlatiladi
-const prompts = require("@inquirer/prompts");
+// inquirer/prompts@latest, node v20.13.1
 
+const prompts = require("@inquirer/prompts");
 prompts
 	.input({ message: "raqamni kiriting:" })
 	.then((answer) => {
@@ -53,7 +54,7 @@ prompts
 */
 
 /*
-Error: inquirer.prompt is not a function
+// inquirer v8.2.0, node v16.7.0
 const inquirer = require("inquirer");
 inquirer
 	.prompt([{ type: "input", name: "raqam", message: "raqamni  kiriting" }])
@@ -72,7 +73,7 @@ const test = validator.isIP("192.168.219.108");
 console.log("Test:", test);
 */
 
-// uuid => creates random strings that can be used as an id
+//uuid => generates random strings that can be used as an id
 
 const { v4: uuidv4 } = require("uuid");
 const random = uuidv4(); // creates random string;
