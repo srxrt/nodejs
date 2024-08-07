@@ -81,5 +81,3 @@ console.log("random", random);
 const chalk = require("chalk"); //brings stylist to the terminal
 const log = console.log;
 log(chalk.blue("my random uuid is: ") + chalk.yellow(random) + chalk.red(" !"));
-
-//File Packages
