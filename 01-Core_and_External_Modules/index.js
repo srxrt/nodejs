@@ -75,10 +75,10 @@ console.log("Test:", test);
 
 //uuid => generates random strings that can be used as an id
 
-const { v4: uuidv4 } = require("uuid");
-const random = uuidv4(); // creates random string;
-console.log("random", random);
+// const { v4: uuidv4 } = require("uuid");
+// const random = uuidv4(); // creates random string;
+// console.log("random", random);
 
-const chalk = require("chalk"); //brings stylist to the terminal
-const log = console.log;
-log(chalk.blue("my random uuid is: ") + chalk.yellow(random) + chalk.red(" !"));
+// const chalk = require("chalk"); //brings stylist to the terminal
+// const log = console.log;
+// log(chalk.blue("my random uuid is: ") + chalk.yellow(random) + chalk.red(" !"));
