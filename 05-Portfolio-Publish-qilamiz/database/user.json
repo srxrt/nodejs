@@ -6,11 +6,11 @@
 	"address": "S.Korea, Seoul",
 	"languages": ["Uzbek", "Korean", "English"],
 	"skills": ["HTML", "CSS", "JS", "NodeJS", "Python"],
-	"extra_skils": [
+	"extra_skills": [
 		"Bootstrap, Materialize",
 		"Styling, Sass",
 		"Django, Flask",
-		"GIT Knowledge"
+		"Git Knowledge"
 	],
 	"work_place": "IT Company",
 	"service_sec": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
