@@ -19,12 +19,94 @@
 						<div class="left_1-1"><img src="images/profile.png" alt="" /></div>
 						<div class="left_1-2"><%=user.name%></div>
 						<div class="left_1-3"><%=user.profession%></div>
-						<div class="left-icons"></div>
+						<div class="left-icons">
+							<a class="link_href" href="">
+								<div class="icon">
+									<img src="icon/facebook.svg" class="icon-1" />
+								</div>
+							</a>
+							<a class="link_href" href="">
+								<div class="icon">
+									<img src="icon/instagram.svg" class="icon-1" />
+								</div>
+							</a>
+							<a class="link_href" href="">
+								<div class="icon">
+									<img src="icon/twitter.svg" class="icon-1" />
+								</div>
+							</a>
+							<a class="link_href" href="">
+								<div class="icon">
+									<img src="icon/dribbble.svg" class="icon-1" />
+								</div>
+							</a>
+							<a class="link_href" href="">
+								<div class="icon">
+									<img src="icon/youtube.svg" class="icon-1" />
+								</div>
+							</a>
+							<a class="link_href" href="">
+								<div class="icon">
+									<img src="icon/linkedin.svg" class="icon-1" />
+								</div>
+							</a>
+						</div>
 					</div>
 					<div class="marginer"></div>
-					<div class="left_2">2</div>
+					<div class="left_2">
+						<div class="left_2-1">
+							<div class="col-items">
+								<p class="row-item">Age:</p>
+								<%=user.age%>
+							</div>
+							<div class="col-items">
+								<p class="row-item">Residence:</p>
+								<%=user.residence%>
+							</div>
+							<div class="col-items">
+								<p class="row-item">Freelance:</p>
+								<p style="color: green">Available</p>
+							</div>
+							<div class="col-items">
+								<p class="row-item">Address:</p>
+								<%=user.address%>
+							</div>
+						</div>
+					</div>
 					<div class="marginer"></div>
-					<div class="left_3">3</div>
+
+					<div class="left_3">
+						<div class="h-text">Languages</div>
+						<div class="lan-items">
+							<div>
+								<div class="p-text">
+									<%=user.languages[0]%>
+									<p>100%</p>
+								</div>
+								<div class="outer-border">
+									<div class="inner-line hun-per"></div>
+								</div>
+							</div>
+							<div>
+								<div class="p-text">
+									<%=user.languages[1]%>
+									<p>50%</p>
+								</div>
+								<div class="outer-border">
+									<div class="inner-line fif-per"></div>
+								</div>
+							</div>
+							<div>
+								<div class="p-text">
+									<%=user.languages[2]%>
+									<p>80%</p>
+								</div>
+								<div class="outer-border">
+									<div class="inner-line eigh-per"></div>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="marginer"></div>
 					<div class="left_4">4</div>
 					<div class="marginer"></div>
