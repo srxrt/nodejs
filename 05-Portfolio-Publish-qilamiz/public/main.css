@@ -6,25 +6,24 @@
 	flex-direction: row;
 	justify-content: center;
 }
-
-.frame .main_frame {
+.main_frame {
 	position: relative;
 	width: 1440px;
 	height: 1312px;
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+
 	margin-top: 2px;
 }
 
-.main_frame .left_frame {
-	position: absolute;
+.left_frame {
+	position: relative;
 	width: 305px;
 	height: 1315px;
 	background-color: white;
 }
 
-.main_frame .midd_frame {
+.midd_frame {
 	position: relative;
 	width: 970px;
 	height: 1259px;
@@ -32,9 +31,10 @@
 	margin-right: 27px;
 	display: flex;
 	flex-direction: column;
+	gap: 10px;
 }
 
-.main_frame .right_frame {
+.right_frame {
 	position: relative;
 	width: 108px;
 	height: 1315px;
@@ -297,6 +297,7 @@
 	width: 220px;
 	height: 40px;
 	margin-left: 40px;
+	margin-bottom: 2px;
 }
 .download-box {
 	display: relative;
@@ -312,4 +313,75 @@
 	align-items: center;
 	justify-content: center;
 	gap: 10px;
+}
+
+.midd_frame .hero-section {
+	width: 970px;
+	height: 467px;
+	background: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about-section {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin-left: 50px;
+
+	gap: 30px;
+}
+.title-section {
+	height: 118px;
+	width: 500px;
+
+	color: #2b2b2b;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 60px;
+}
+.desc {
+	width: 424px;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	color: #767676;
+}
+.hire-butt {
+	border: none;
+	background-color: #ffb400;
+	border-radius: 5px;
+
+	width: 154px;
+	height: 54px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	cursor: pointer;
+}
+.hire-butt h4 {
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 500px;
+	line-height: 19px;
+}
+
+.midd_frame .my-services {
+	width: 970px;
+	height: 653px;
+	background: white;
+}
+
+.image-section {
+	height: 459px;
+	width: 326px;
+	margin-right: 50px;
+	margin-bottom: -10px;
 }
